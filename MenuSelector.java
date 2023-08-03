@@ -16,7 +16,6 @@ public class MenuSelector extends Bank implements CurrencyGUI {
         DepositSystem depositSystem = new DepositSystem();
         WithdrawalSystem withdrawalSystem = new WithdrawalSystem();
         BalanceSystem balanceSystem = new BalanceSystem();
-        OptionsMenu optionsMenu = new OptionsMenu();
         CurrencyConverter currencyConverter = new CurrencyConverter();
 
         String passVerificator = "";
@@ -71,7 +70,6 @@ public class MenuSelector extends Bank implements CurrencyGUI {
 
             case "options":
             case "o":
-                optionsMenu.optionsMenu();
                 break;
 
             case "turnoff":
